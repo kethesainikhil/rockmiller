@@ -77,7 +77,7 @@ a{
     color: #FFFFFF;
     border-radius: 0;
     border: none;
-    padding: 7px;
+    padding: 2vh 2vw;
     width: 10vw;
     height: 7vh;
     font-size: 1vw;
@@ -359,7 +359,7 @@ a{
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 
     .header{
         margin-top: 0px;
@@ -374,14 +374,16 @@ a{
     }
     .nav-part2{
         margin-right: 0;
+        margin-top: 0vh;
         gap: 14vw;
     }
     .btn-warning{
         font-size: 1.6vw;
         font-weight: 700;
+        padding: 1vh 2vw;
     }
     .home-image img{
-        height: 80vmin;
+        height: 80vmax;
     }
     .about-us1{
         width: 100%;
@@ -399,29 +401,37 @@ a{
         width: 20%;
     }
     .middle-card{
-        height: 130%;
+        height: 160%;
         padding: 2.5vh;
         align-items: center;
         flex-wrap: wrap;
     }
     .card{
+        height: 45%;
         display: block;
         margin: auto;
     }
     .offer-cards{
+        display: flex;
         flex-wrap: wrap;
+    }
+    .offer-cards div{
+        height: 60vh;
     }
     .services-section1{
         flex-wrap: wrap;
     }
     .services-section{
-        height: 260%;
+        height: 270%;
     }
     .btn-getnow{
         font-size: 2vw;
     }
     .display-section{
         flex-wrap: wrap;
+    }
+    .middle-container{
+        height: 180%;
     }
     .products-display{
         max-width: 75%;
@@ -445,12 +455,12 @@ a{
 
     .testinominal-card{
         height: 38vh;
-        width: 45%;
-        border-radius: 0.8vw;
+        width: 65%;
+        border-radius: 3vw;
 
     }
     .testmonials{
-        height: 275vh;
+        height: 300vh;
     }
  
   }
