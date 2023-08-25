@@ -33,7 +33,6 @@ a{
     gap: 2.5vw;
 }
 .nav-part2{
-    margin-right: 2vw;
     margin-top: 4vh;
     display: flex;
     align-items: center;
@@ -369,13 +368,14 @@ a{
         margin-left: 0px;
     }
     .nav-part1{
+        padding-top: 1vh;
         margin-top: 0;
         gap: 20vw;
     }
     .nav-part2{
         margin-right: 0;
         margin-top: 0vh;
-        gap: 14vw;
+        gap: 13vw;
     }
     .btn-warning{
         font-size: 1.6vw;
